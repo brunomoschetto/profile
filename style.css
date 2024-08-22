@@ -2,7 +2,7 @@ body {
   font-family: "Zain", sans-serif;
   font-weight: 400;
   font-style: normal;
-  line-height: 10%;
+  line-height: 120%;
   padding: 0px;
   margin: 16px;
   background-color: skyblue;
@@ -29,7 +29,7 @@ p {
   padding: 15px;
   margin: 20px;
   font-size: 20px;
-  display: block;
+  word-wrap: break-word;
 }
 
 a {
@@ -124,7 +124,7 @@ i {
 
 @media (max-width: 720px) {
   .container {
-    width: 100%;
+    max-width: 100%;
     padding: 0 20px;
   }
   h1 {
